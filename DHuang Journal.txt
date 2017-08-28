@@ -1,0 +1,9 @@
+First Class
+8/21/2017 (Mon)
+	We go over the rules and schedule for the rest of the class and some simple terms of SQL.
+
+8/25/2017 (Thur)
+	We start to make up data to form database system.Through the activities, we are able to tell what are the elements require to include in database.
+
+8/28/2017 (Mon)
+	2 new classmates joined us. We quickly go over the previous stuffs and hw questions in the start of the class. Then again continue the group discussion about database in a more detail and organized way.
