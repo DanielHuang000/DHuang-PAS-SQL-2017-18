@@ -6,4 +6,8 @@ First Class
 	We start to make up data to form database system.Through the activities, we are able to tell what are the elements require to include in database.
 
 8/28/2017 (Mon)
-	2 new classmates joined us. We quickly go over the previous stuffs and hw questions in the start of the class. Then again continue the group discussion about database in a more detail and organized way.
+	2 new classmates joined us in the class today. We quickly go over the previous stuff and homework questions, such as the definition of some confusing terms, in the start of the class. Then again continue the group discussion about the database in a more detail and organized way. In the group discussion, we were spread to a few groups and each in charge of creating one or two tables in a database. We learned the connections between tables, for example, a class of students is multiple (M) and each student with their further information is categorized as single (1) in the Entity-relationship model (ER).
+	On the other hand, we also faced a few problems building up a complicated database. For instance, the format of date has been one of an undecided variable since the discussion we had in the previous class. Deciding whether to use time-slots, real dates, or hour-based to present time in our database. All three ideas have advantages and disadvantages while dealing with the different situation.
+
+8/31/2018 (Thur)
+	
