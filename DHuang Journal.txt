@@ -2,12 +2,34 @@ First Class
 8/21/2017 (Mon)
 	We go over the rules and schedule for the rest of the class and some simple terms of SQL.
 
+
 8/25/2017 (Thur)
-	We start to make up data to form database system.Through the activities, we are able to tell what are the elements require to include in database.
+	We start to make up data to form database system.Through the activities, we are able to tell what elements are require to include in attribute in database.
+
 
 8/28/2017 (Mon)
 	2 new classmates joined us in the class today. We quickly go over the previous stuff and homework questions, such as the definition of some confusing terms, in the start of the class. Then again continue the group discussion about the database in a more detail and organized way. In the group discussion, we were spread to a few groups and each in charge of creating one or two tables in a database. We learned the connections between tables, for example, a class of students is multiple (M) and each student with their further information is categorized as single (1) in the Entity-relationship model (ER).
 	On the other hand, we also faced a few problems building up a complicated database. For instance, the format of date has been one of an undecided variable since the discussion we had in the previous class. Deciding whether to use time-slots, real dates, or hour-based to present time in our database. All three ideas have advantages and disadvantages while dealing with the different situation.
 
-8/31/2018 (Thur)
+
+8/31/2017 (Thur)
+	Note in class:
+	- Single value vs multivalued attributes (not limited to only one)
+	- Stored(manual) vs derived attributes(auto)
+	- Complex attributes are attributes that use other attributes (inputing data issues)
+	- simple vs Composite attribute: long stuff
+	- Tips 1: boolean, int cost less memory than long and double, which not necessary o formulate everything into one type (long)
+	- entity, entity types, entity set
+ 	- RULE 1: must have an ID or key attribute (there are exceptions)
+	- Tips 2: adding a additional digit to easily tell the difference
+	- Relationship types: 1 to 1; 1 to M; M to M;
+	- Recursive Relationship: using the IDs in the same table
+	- ER models 1 to 1; 1 to M; n to M; depend on the verb or sentence flow
+
+	In this class, we were introduced to several new terms and told to identify their difference. Using "address", for example, composite attribute vs complex attribute vs multivalued attribute would be (composite) address as an attribute that is able to separate into different multiple different kind of attributes; (complex) address as an attribute that include other attributes, such as, phone number and area code; (multivalued) all address instead of number of address (single value).
+	Other then terms with comparison, we also learned to draw ER model with ER notations. For instance, rectangles are entities, rumpuses are relationships, circles are attributes, circles with word underlined are key attributes, double circles are multivalued attributes, circles that are connected with multiple other circles are composite attributes, and circles formed with dotted lines are derived attributes.
+
+
+9/4/2017 (Mon)
 	
+
