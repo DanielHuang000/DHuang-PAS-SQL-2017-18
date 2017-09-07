@@ -27,9 +27,14 @@ First Class
 	- ER models 1 to 1; 1 to M; n to M; depend on the verb or sentence flow
 
 	In this class, we were introduced to several new terms and told to identify their difference. Using "address", for example, composite attribute vs complex attribute vs multivalued attribute would be (composite) address as an attribute that is able to separate into different multiple different kind of attributes; (complex) address as an attribute that include other attributes, such as, phone number and area code; (multivalued) all address instead of number of address (single value).
-	Other then terms with comparison, we also learned to draw ER model with ER notations. For instance, rectangles are entities, rumpuses are relationships, circles are attributes, circles with word underlined are key attributes, double circles are multivalued attributes, circles that are connected with multiple other circles are composite attributes, and circles formed with dotted lines are derived attributes.
+	Other then terms with comparison, we also learned to draw ER model with ER notations. For instance, rectangles are entities, rhombuses are relationships, circles are attributes, circles with word underlined are key attributes, double circles are multivalued attributes, circles that are connected with multiple other circles are composite attributes, and circles formed with dotted lines are derived attributes.
 
 
 9/4/2017 (Mon)
+	In the class, we reviewed the concepts and terms introduced in previous class. Beside reviewing the previous concepts, we also built a ER model in class together. Firstly, we search for a interesting topic to start up our database. Secondly, we listed out most of the entities we can came up with. Thirdly, some of us work of defining relationships between entities or between entity and "hotel", while others working on creating attributes for each entities. By collaboratively building a ER model we were able to hopefully clear our doubts and have better understanding on topics we have learned so far.
+	Notes in class:
+	- weak entities: entities without an ID
+
+9/7/2017 (Thu)
 	
 
