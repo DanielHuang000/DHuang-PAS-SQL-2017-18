@@ -36,5 +36,11 @@ First Class
 	- weak entities: entities without an ID
 
 9/7/2017 (Thu)
+	Notes in class:
+	- Foreign keys: Its a primary or unique key in a table that is defined in another table.
+	- A weak entity can have an "unique key" that serves as the function of primary key, but not categorized as ID
+	- In some cases relationships can have attributes because relationships can actually be set as an entity connected with other more relationships. However, depended on the cases a few extra entities and relationships are sometimes set as one relationship.
+
+9/21/2017 (Thur)
 	
 
