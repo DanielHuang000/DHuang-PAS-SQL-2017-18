@@ -35,12 +35,31 @@ First Class
 	Notes in class:
 	- weak entities: entities without an ID
 
-9/7/2017 (Thu)
+9/7/2017 (Thur)
+	Today's lesson was mainly reviewing previous concepts and terms again. After going through some of homework questions, we start playing review games. We were separated into two groups multiple times, and compete which group is able to guess all the vocabularies they are suppose to get.
+	During the game, each team should elected a person that knows all the answers and responsible for giving hints to his or her teammates. One thing special about the hint is that it can only include a word and a number that represent the guesses their team have.
+	After a few wins and a few loss, I guess the only thing I had learned and would remember for ever is..... DBMS != people....QAQ
+
+9/11/2017 (Mon)
+	In the lesson, we were again separated into groups, but this time we were separated into three groups. Each groups represented with a fruit's name in the game. I am lucky enough to form the only three people group in the class with Shaun and Jim. During the game (test), our group came up with a strategy of choosing those questions with lower points, which also known as easier questions. However, unluckily the game was a composition of easy and difficult questions. We choose the category of "examples", which test not only our understanding, but also how we apply those knowledge on building ER models. As the result, our strategy didn't execute the way we planned.
+
+9/14/2017 (Thur)
+	We were introduced to a "ER-Model card game" in the class. The game was composition of two kinds of cards: jobs cards and ER-Model cards. Jobs cards are basically cards with a job written on it, while ER-Model cards are cards with ER-Model elements, such as entities, relationships, and attributes, on it. During the game, we all pick the same amount of cards and try our best to build ER-Model for the job we are assigned and switch cards with each other after we have our basic structure set down.
+	After we were all done with our ER-Model, we were told to detailedly explain our ER-Model to the rest of the class. Honestly, I believe this activity is beneficial for us to practice and get used to those terms and concepts we learned in SQL class, and it also built a solid foundation for us to move on the next level of learning.
+
+9/18/2017 (Mon)
+	I've created a memorable experience in this class, which I challenge myself to build and to explain a 50 cards ER-Model (for event planner). I spent an amount of sparse time in the weekend to play with it and make some sense out of it. Everything seems nice and simple until we were introduced to relational schema and told to make one based on our ER-Model. I won't say the activity is hard because it's only organizing data of information in another format. However, I had a real life experience how complicated a relational schema can be in this class (even mine wasn't fully developed due to the restriction of the ER-Model I made in the last class). Because of that, I missed the "food game" the others played at the end of the class. 
+
 	Notes in class:
 	- Foreign keys: Its a primary or unique key in a table that is defined in another table.
 	- A weak entity can have an "unique key" that serves as the function of primary key, but not categorized as ID
 	- In some cases relationships can have attributes because relationships can actually be set as an entity connected with other more relationships. However, depended on the cases a few extra entities and relationships are sometimes set as one relationship.
 
 9/21/2017 (Thur)
-	
+	We had a class and a group discussion mainly about things mentioning chapter 4 in SQL. EX: We tried to build two tables for school's Stuco Store. One listed all the items and the other was set for discounts offered in Stuco Store.
+
+	Notes in class: 
+	- Arrows in ER-diagram is use to identify the relationship between two entities.
+	- In ER-notations, circles or triangles connected to two lines are "specify", which specifically identify entities for an entity; circles or triangles connected to one line is "spread?", which create a more general idea for many similar entities.
+	- Those hierarchy relationships are use when entities are similar or having some sort of connection.
 
