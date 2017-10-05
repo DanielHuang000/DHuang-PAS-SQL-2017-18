@@ -63,3 +63,31 @@ First Class
 	- In ER-notations, circles or triangles connected to two lines are "specify", which specifically identify entities for an entity; circles or triangles connected to one line is "spread?", which create a more general idea for many similar entities.
 	- Those hierarchy relationships are use when entities are similar or having some sort of connection.
 
+9/25/2017 (Mon)
+	In the class, we were told to apply what we had learned in the previous class (is a relationship) on building new ER-models. Combining those "is a" relationships with all other entities, attributes, relationships, we were assigned to build ER-models for each other. I got the job of dentist and built a sword-like ER-model, which no one at the time would know that its going to be use till the following week on building relation database schema.
+
+9/28/2017 (Thur)
+	We focus on mainly <Functional Dependency and normalization> in the class.
+	Notes in class:
+	- School{ID,Location,Name,Date.Age...}
+	- Trivial A -> A
+	- Non-Trivial A -> B
+	- Transitive A -> B, B -> c, B -x-> A, A -> C
+		EX: A = author, B = Books, C = gender
+	- Multivalued A ->> B
+ 
+10/02/2017 (Mon)
+	Another class for new stuffs~ We are introduced to 0NF, 1NF, 2NF, 3NF, which are ways to organize the relation database schema, and practice using those to organize the ER-model we built a long time ago.
+
+	Notes in class:
+	- 0NF: Pretty much the original thing without any restrictions.
+	- 1NF: Put multivalued attributes in separated row with given ID.
+	- 2NF: Finds half-dependencies and connect them together.
+	- 3NF: Create full-dependencies, which each row can only included 1 ID.
+
+10/05/2017 (Thur)
+	We had our first pop quiz in the start of class... Due to the fact that some of us (probably only me?) plagiarized stuffs online for Ch5's homework. I personally think it's fair to punish people who plagiarize information online. I'm also pretty grateful for the makeup quiz that earn me at least a few points. XD After I rethink and learn from the event, I found that its actually a mindset issue I had toward those assignments. I did notice and tried to avoid plagiarism while trying to maintain and to provide the most accurate answers for each questions, however, I've ignore that whole point of doing such an assignment. It is not about completing homework, but to actually learn those stuffs and some how apply those on the way toward deeper concepts. (lets all for the reflection)
+	In today's class, we had went through the pop quiz questions, which is mainly Ch5 homework questions, and then focus on learning BCNF (aka 3.5NF). Similar to 3NF, BCNF has mostly the same format and constrains except it has more rows for those schemas that are dependent to each other.
+
+
+
