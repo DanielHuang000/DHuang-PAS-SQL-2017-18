@@ -76,6 +76,10 @@ First Class
 		EX: A = author, B = Books, C = gender
 	- Multivalued A ->> B
  
+
+~~~~~ Winter ~~~~~
+
+
 10/02/2017 (Mon)
 	Another class for new stuffs~ We are introduced to 0NF, 1NF, 2NF, 3NF, which are ways to organize the relation database schema, and practice using those to organize the ER-model we built a long time ago.
 
@@ -89,5 +93,15 @@ First Class
 	We had our first pop quiz in the start of class... Due to the fact that some of us (probably only me?) plagiarized stuffs online for Ch5's homework. I personally think it's fair to punish people who plagiarize information online. I'm also pretty grateful for the makeup quiz that earn me at least a few points. XD After I rethink and learn from the event, I found that its actually a mindset issue I had toward those assignments. I did notice and tried to avoid plagiarism while trying to maintain and to provide the most accurate answers for each questions, however, I've ignore that whole point of doing such an assignment. It is not about completing homework, but to actually learn those stuffs and some how apply those on the way toward deeper concepts. (lets all for the reflection)
 	In today's class, we had went through the pop quiz questions, which is mainly Ch5 homework questions, and then focus on learning BCNF (aka 3.5NF). Similar to 3NF, BCNF has mostly the same format and constrains except it has more rows for those schemas that are dependent to each other.
 
+10/09/2017 (Mon)
+<Holiday>
+
+10/12/2017 (Thur)
+    During this class, we went through almost all the homework questions (Q1 to Q16) before we start the lesson. :) We were introduced to the advantage and disadvantage of each normal form (NF1 to BCNF) through an activity. There were 4 databases, which categorized similar data in different forms. We were all assigned to one of them and were told to answer questions based on the database we got. 
+    In the activity, I got the no.4 database, which is a database broken down into maximum tables. Overall, it's really clear and organized in a way that people can easily tell where to find the needed information by simply looking at the table's name. It's quite straightforward to find information like first and last name, address, and cost of items, but it would take a lot more effort to find derived attributes or to edit and make changes to the database.
+
+
+10/16/2017 (Mon)
+    Finishing up the activity we did during the last period, we had a discussion about whether to normalize or to denormalize a database. It reminds me of the first class we were assigned to create our own databases or tables of data. While I was working on my homework, I came up with a few versions of methods to organize the data, and I also came up with the question of which ways work best for the databases. I'm not sure, but I remember I wrote something that can be categorized between 1NF and 2NF. (I haven't learned normal forms at the time) However, if I am given the second chance to redo the assignment again, I will write something that can be categorized between 2NF and 3NF for the most optimal form of the database. Since the size of the databases we have been working on in class are relatively smaller than those that were used in the bigger company, such as Google's databases, or hospital's databases, there is no reason for us to denormalize our database in an exchange with querying speed.
 
 
