@@ -104,4 +104,27 @@ First Class
 10/16/2017 (Mon)
     Finishing up the activity we did during the last period, we had a discussion about whether to normalize or to denormalize a database. It reminds me of the first class we were assigned to create our own databases or tables of data. While I was working on my homework, I came up with a few versions of methods to organize the data, and I also came up with the question of which ways work best for the databases. I'm not sure, but I remember I wrote something that can be categorized between 1NF and 2NF. (I haven't learned normal forms at the time) However, if I am given the second chance to redo the assignment again, I will write something that can be categorized between 2NF and 3NF for the most optimal form of the database. Since the size of the databases we have been working on in class are relatively smaller than those that were used in the bigger company, such as Google's databases, or hospital's databases, there is no reason for us to denormalize our database in an exchange with querying speed.
 
+10/19/2017 (Thur)
+	In the class, we finally started coding. Using SQL Fiddle to test out our SQL codes, we reviewed ways to CREATE TABLES, INSERT data, rows, and DELETE, UPDATE data.
 
+Previous Chapter Review:
+	Advantages for denormalization:
+		- Its easy to keep records
+		- Its easier to code
+		- It increase the querying speed
+	Disadvantages:
+		- null values
+		- having trouble finding information 
+Notes in class:
+	Reflexivity: A -> B, then A -> A
+	Augmentation: A -> B, then AC -> BC
+	Transitivity: 
+	Additivity or Union: A -> B and A -> C, then A -> BC
+	Projectivity and Decomposition: A -> BC, then A -> B and A -> C
+	Pseudo Transitivity: A -> B and BC -> D, then AC -> D
+
+10/23/2017 (Mon)
+	In this class, we started to practice those codes, such as ways to set PRIMARY KEY, FOREIGN KEY, and taking a specific part of data. By doing so, we not only memorize those simple codes that are use often during programing or debuting sections, but also recognize some of the parts that can easily get wrong. For example, the position to put PRIMARY KEY and the fact that reference tables should exist before we set FORIGN KEYS...
+
+10/25/2017 (Wed)
+	In the class, we continue the programming sections in the previous class. We focus more on the second lesson we have on Codecademy than the previous one: ways to apply foreign key concept on programming, so the data in a table can be referring to data in another tables in certain conditions; subquery stuffs using "WHERE (SELECT...FROM...WHERE)"; also, some extra stuffs like ways of making a super key a primary key.
