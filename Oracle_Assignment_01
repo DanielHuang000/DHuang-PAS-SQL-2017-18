@@ -1,0 +1,164 @@
+drop table Item;
+drop table Customer CASCADE CONSTRAINTS;
+drop table Employee CASCADE CONSTRAINTS;
+drop table Transaction;
+
+
+create table Item (
+  ItemID int not null Primary key,
+  "Item Name" varchar(50),
+  Inventory int,
+  "Item Types" varchar(100),
+  "Item Cost" int
+)
+;
+
+create table Customer (
+  CustomerID int not null primary key,
+  "Customer FName" varchar(50),
+  "Customer LName" varchar(50),
+  Room int,
+  Floors int,
+  Numbers int,
+  Street varchar(100),
+  City varchar(100),
+  Country varchar(50),
+  Points int,
+  Phone# varchar(30)
+)
+;
+
+create table Employee (
+  EmployeeID int not null primary key,
+  Fname varchar(50),
+  Lname varchar(50),
+  Room int,
+  Floors varchar(100),
+  Numbers int,
+  Street varchar(100),
+  City varchar(100),
+  Country varchar(50),
+  Phone varchar(30),
+  Wage int
+)
+;
+
+create table Transaction (
+  Orders int not null,
+  Transaction int,
+  Dates date,
+  "Item#" int,
+  Inventory int,
+  CustomerID int REFERENCES Customer(CustomerID),
+  Points int,
+  EmpID int REFERENCES Employee(EmployeeID),
+  CostPerItem int,
+  TotalCost int,
+  "Money Given" int,
+  Change int
+)
+;
+
+
+Insert Into Customer (
+  CustomerID,
+  "Customer FName",	
+  "Customer LName",
+  Room,
+  Floors,
+  Numbers,
+  Street,
+  City,
+  Country,
+  Points,
+  Phone#
+)
+    Select 1,	'Shaun',	'Cheon',	12,	2,	400,	'Guangfu Rd',	'Hsinchu',	'Taiwan',	90,	'(251) 546-9442' from dual Union All
+    Select 2,	'Darren',	'Chiang',	99999,	10,	421,	'Ren Ai Rd',	'Taipei',	'Taiwan',	53,	'(125) 546-4478' from dual Union All
+    Select 3,	'Jasmine',	'Chein',	99999,	99999,	811,	'Main St',	'Taichung',	'Taiwan',	10,	'(949) 569-4371' from dual Union All
+    Select 4,	'Alice',	'Hu',	99999,	21,	43,	'Chang An Rd',	'Taipei',	'Taiwan',	80,	'(671) 925-1352' from dual Union All
+    Select 5,	'Daniel',	'Huang',	32,	3,	23,	'Gongyuan Rd',	'Taichung',	'Taiwan',	10,	'(226) 906-2721' from dual Union All
+    Select 6,	'Henry',	'Tsai',	99999,	99999,	91,	'Minzhu Rd',	'Miaoli',	'Taiwan',	40,	'(630) 446-8851' from dual Union All
+    Select 7,	'PoWei',	'Tsao',	99999,	99999,	203,	'Zhongshan Rd',	'Miaoli',	'Taiwan',	30,	'(381) 686-2088' from dual Union All
+    Select 8,	'Jim',	'Yeh',	32,	3,	511,	'Gongyuan Rd',	'Hsinchu',	'Taiwan',	50,	'(841) 182-4411' from dual Union All
+    Select 9,	'Wharton',	'Yeh',	32,	3,	511,	'Gongyuan Rd',	'Hsinchu',	'Taiwan',	20,	'(841) 182-4411' from dual;
+
+
+Insert Into Employee(
+    EmployeeID,
+    Fname,	
+    Lname,	
+    Room,	
+    Floors,	
+    Numbers,	
+    Street,	
+    City,
+    Country,	
+    Phone,	
+    Wage
+    )
+    Select 1,	'Annshine',	'Wu',	21,	2,	311,	'Minzhu Rd',	'Miaoli',	'Taiwan',	'(461) 929-6263',	200 from dual Union All
+    Select 2,	'Will',	'Sung',	99999,	99999,	91,	'Minzhu Rd',	'Miaoli',	'Taiwan',	'(744) 236-9533',	150 from dual;
+
+
+Insert Into Transaction (
+  Orders,
+  Transaction,
+  Dates,
+  "Item#",
+  Inventory,
+  CustomerID,
+  Points,
+  EmpID,
+  CostPerItem,
+  TotalCost,
+  "Money Given",
+  Change
+)
+    Select 1,	1,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 2,	91,	2,	45,	1,	20,	20,	100, 80 from dual Union All
+    Select 1,	2,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 6,	51,	2,	45,	1,	25,	45,	100, 55 from dual Union All
+    Select 1,	3,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 5,	79,	2,	45,	1,	29,	54,	100, 46 from dual Union All
+    Select 2,	1,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 8,	61,	4,	80,	2,	30,	30,	55,	25 from dual Union All
+    Select 2,	2,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 7,	28,	4,	80,	2,	25,	55,	55,	0 from dual Union All
+    Select 3,	1,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 15, 51, 8,	50,	2,	15,	15,	80,	65 from dual Union All
+    Select 3,	2,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 12, 12, 8,	50,	2,	8,	23,	80,	57 from dual Union All
+    Select 3,	3,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 4,	46,	8,	50,	2,	25,	33,	80,	47 from dual Union All
+    Select 3,	4,	TO_DATE('10/11/2017', 'mm/dd/yyyy'), 5,	78,	8,	50,	2,	29,	54,	80,	26 from dual Union All
+    Select 4,	1,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 17, 99999,	2,	50,	1,	10,	10,	80,	70 from dual Union All
+    Select 4,	2,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 5,	77,	2,	50, 1,	29,	39,	80,	41 from dual Union All
+    Select 4,	3,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 13, 99, 7,	30,	1,	9,	38,	80,	42 from dual Union All
+    Select 4,	4,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 4,	45,	7,	30,	1,	25,	34,	80,	46 from dual Union All
+    Select 5,	1,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 16, 99999,	5,	10,	2,	10,	10,	100, 90 from dual Union All
+    Select 5,	2,	TO_DATE('10/12/2017', 'mm/dd/yyyy'), 10, 71, 5,	10,	2,	30,	40,	100, 60 from dual Union All
+    Select 6,	1,	TO_DATE('10/13/2017', 'mm/dd/yyyy'), 5,	76,	9, 20,	2,	29, 29,	100, 71 from dual Union All
+    Select 6,	2,	TO_DATE('10/13/2017', 'mm/dd/yyyy'), 2,	90,	9, 20,	2,	20,	49,	100, 51 from dual Union All
+    Select 7,	1,	TO_DATE('10/13/2017', 'mm/dd/yyyy'), 17, 99999,	1,	90,	1,	10,	10,	50,	40 from dual Union All
+    Select 8,	1,	TO_DATE('10/13/2017', 'mm/dd/yyyy'), 17, 99999,	3,	10,	2,	10,	10,	50,	40 from dual Union All
+    Select 9,	1,	TO_DATE('10/13/2017', 'mm/dd/yyyy'), 17, 99999,	6,	40,	1,	10,	10,	10,	0 from dual;
+
+Insert Into Item (
+    ItemID,
+    "Item Name",
+    Inventory,
+    "Item Types",
+    "Item Cost"
+)
+    Select 1,	'Oreos', 46, 'Junk Food',	30 from dual Union All
+    Select 2,	'M&M',	90,	'Junk Food',	20 from dual Union All 
+    Select 3,	'Herseys',	37,	'Junk Food',	15 from dual Union All 
+    Select 4,	'Snickers',	45,	'Junk Food',	25 from dual Union All 
+    Select 5,	'Twix',	76,	'Junk Food',	29 from dual Union All 
+    Select 6,	'Apple Cider',	51,	'Drink',	25 from dual Union All 
+    Select 7,	'Hey Song',	28,	'Drink',	25 from dual Union All 
+    Select 8,	'Sprite',	61,	'Drink',	30 from dual Union All 
+    Select 9,	'Coke',	29,	'Drink',	30 from dual Union All 
+    Select 10, 'Pepsi',	71,	'Drink',	30 from dual Union All 
+    Select 11,	'Banana',	99,	'Fruit',	5 from dual Union All 
+    Select 12,	'Apple',	12,	'Fruit',	8 from dual Union All 
+    Select 13,	'Oranges',	99,	'Fruit',	9 from dual Union All
+    Select 14,	'Peaches',	31,	'Fruit',	12 from dual Union All
+    Select 15,	'Guava',	51,	'Fruit',	15 from dual Union All
+    Select 16,	'Service Fee',	99999,	'Service',	10 from dual Union All
+    Select 17,	'Parking',	99999,	'Service',	10 from dual Union All
+    Select 18,	'Haircut',	99999,	'Service',	100 from dual;
+

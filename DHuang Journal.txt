@@ -128,3 +128,14 @@ Notes in class:
 
 10/25/2017 (Wed)
 	In the class, we continue the programming sections in the previous class. We focus more on the second lesson we have on Codecademy than the previous one: ways to apply foreign key concept on programming, so the data in a table can be referring to data in another tables in certain conditions; subquery stuffs using "WHERE (SELECT...FROM...WHERE)"; also, some extra stuffs like ways of making a super key a primary key.
+
+10/30/2017 (Mon)
+	
+11/2/2017 (Thur)
+	
+11/6/2017 (Mon)
+	
+11/9/2017 (Thur)
+	
+11/13/2017 (Mon)
+	
