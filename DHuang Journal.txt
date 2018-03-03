@@ -1,141 +1,22 @@
-First Class
-8/21/2017 (Mon)
-	We go over the rules and schedule for the rest of the class and some simple terms of SQL.
+Semester 2 Quarter 3
 
+02/05/2018 (Mon)
+	- We completed the tutorial of <Introduction to Oracle> (the first video) and the assignment attached to it. It's mainly about reviewing stuffs we learned previously in SQL semester 1 + ways to apply them to Oracle online.
 
-8/25/2017 (Thur)
-	We start to make up data to form database system.Through the activities, we are able to tell what elements are require to include in attribute in database.
-
-
-8/28/2017 (Mon)
-	2 new classmates joined us in the class today. We quickly go over the previous stuff and homework questions, such as the definition of some confusing terms, in the start of the class. Then again continue the group discussion about the database in a more detail and organized way. In the group discussion, we were spread to a few groups and each in charge of creating one or two tables in a database. We learned the connections between tables, for example, a class of students is multiple (M) and each student with their further information is categorized as single (1) in the Entity-relationship model (ER).
-	On the other hand, we also faced a few problems building up a complicated database. For instance, the format of date has been one of an undecided variable since the discussion we had in the previous class. Deciding whether to use time-slots, real dates, or hour-based to present time in our database. All three ideas have advantages and disadvantages while dealing with the different situation.
-
-
-8/31/2017 (Thur)
-	Note in class:
-	- Single value vs multivalued attributes (not limited to only one)
-	- Stored(manual) vs derived attributes(auto)
-	- Complex attributes are attributes that use other attributes (inputing data issues)
-	- simple vs Composite attribute: long stuff
-	- Tips 1: boolean, int cost less memory than long and double, which not necessary o formulate everything into one type (long)
-	- entity, entity types, entity set
- 	- RULE 1: must have an ID or key attribute (there are exceptions)
-	- Tips 2: adding a additional digit to easily tell the difference
-	- Relationship types: 1 to 1; 1 to M; M to M;
-	- Recursive Relationship: using the IDs in the same table
-	- ER models 1 to 1; 1 to M; n to M; depend on the verb or sentence flow
-
-	In this class, we were introduced to several new terms and told to identify their difference. Using "address", for example, composite attribute vs complex attribute vs multivalued attribute would be (composite) address as an attribute that is able to separate into different multiple different kind of attributes; (complex) address as an attribute that include other attributes, such as, phone number and area code; (multivalued) all address instead of number of address (single value).
-	Other then terms with comparison, we also learned to draw ER model with ER notations. For instance, rectangles are entities, rhombuses are relationships, circles are attributes, circles with word underlined are key attributes, double circles are multivalued attributes, circles that are connected with multiple other circles are composite attributes, and circles formed with dotted lines are derived attributes.
-
-
-9/4/2017 (Mon)
-	In the class, we reviewed the concepts and terms introduced in previous class. Beside reviewing the previous concepts, we also built a ER model in class together. Firstly, we search for a interesting topic to start up our database. Secondly, we listed out most of the entities we can came up with. Thirdly, some of us work of defining relationships between entities or between entity and "hotel", while others working on creating attributes for each entities. By collaboratively building a ER model we were able to hopefully clear our doubts and have better understanding on topics we have learned so far.
-	Notes in class:
-	- weak entities: entities without an ID
-
-9/7/2017 (Thur)
-	Today's lesson was mainly reviewing previous concepts and terms again. After going through some of homework questions, we start playing review games. We were separated into two groups multiple times, and compete which group is able to guess all the vocabularies they are suppose to get.
-	During the game, each team should elected a person that knows all the answers and responsible for giving hints to his or her teammates. One thing special about the hint is that it can only include a word and a number that represent the guesses their team have.
-	After a few wins and a few loss, I guess the only thing I had learned and would remember for ever is..... DBMS != people....QAQ
-
-9/11/2017 (Mon)
-	In the lesson, we were again separated into groups, but this time we were separated into three groups. Each groups represented with a fruit's name in the game. I am lucky enough to form the only three people group in the class with Shaun and Jim. During the game (test), our group came up with a strategy of choosing those questions with lower points, which also known as easier questions. However, unluckily the game was a composition of easy and difficult questions. We choose the category of "examples", which test not only our understanding, but also how we apply those knowledge on building ER models. As the result, our strategy didn't execute the way we planned.
-
-9/14/2017 (Thur)
-	We were introduced to a "ER-Model card game" in the class. The game was composition of two kinds of cards: jobs cards and ER-Model cards. Jobs cards are basically cards with a job written on it, while ER-Model cards are cards with ER-Model elements, such as entities, relationships, and attributes, on it. During the game, we all pick the same amount of cards and try our best to build ER-Model for the job we are assigned and switch cards with each other after we have our basic structure set down.
-	After we were all done with our ER-Model, we were told to detailedly explain our ER-Model to the rest of the class. Honestly, I believe this activity is beneficial for us to practice and get used to those terms and concepts we learned in SQL class, and it also built a solid foundation for us to move on the next level of learning.
-
-9/18/2017 (Mon)
-	I've created a memorable experience in this class, which I challenge myself to build and to explain a 50 cards ER-Model (for event planner). I spent an amount of sparse time in the weekend to play with it and make some sense out of it. Everything seems nice and simple until we were introduced to relational schema and told to make one based on our ER-Model. I won't say the activity is hard because it's only organizing data of information in another format. However, I had a real life experience how complicated a relational schema can be in this class (even mine wasn't fully developed due to the restriction of the ER-Model I made in the last class). Because of that, I missed the "food game" the others played at the end of the class. 
-
-	Notes in class:
-	- Foreign keys: Its a primary or unique key in a table that is defined in another table.
-	- A weak entity can have an "unique key" that serves as the function of primary key, but not categorized as ID
-	- In some cases relationships can have attributes because relationships can actually be set as an entity connected with other more relationships. However, depended on the cases a few extra entities and relationships are sometimes set as one relationship.
-
-9/21/2017 (Thur)
-	We had a class and a group discussion mainly about things mentioning chapter 4 in SQL. EX: We tried to build two tables for school's Stuco Store. One listed all the items and the other was set for discounts offered in Stuco Store.
-
-	Notes in class: 
-	- Arrows in ER-diagram is use to identify the relationship between two entities.
-	- In ER-notations, circles or triangles connected to two lines are "specify", which specifically identify entities for an entity; circles or triangles connected to one line is "spread?", which create a more general idea for many similar entities.
-	- Those hierarchy relationships are use when entities are similar or having some sort of connection.
-
-9/25/2017 (Mon)
-	In the class, we were told to apply what we had learned in the previous class (is a relationship) on building new ER-models. Combining those "is a" relationships with all other entities, attributes, relationships, we were assigned to build ER-models for each other. I got the job of dentist and built a sword-like ER-model, which no one at the time would know that its going to be use till the following week on building relation database schema.
-
-9/28/2017 (Thur)
-	We focus on mainly <Functional Dependency and normalization> in the class.
-	Notes in class:
-	- School{ID,Location,Name,Date.Age...}
-	- Trivial A -> A
-	- Non-Trivial A -> B
-	- Transitive A -> B, B -> c, B -x-> A, A -> C
-		EX: A = author, B = Books, C = gender
-	- Multivalued A ->> B
+02/08/2018 (Thur)
+	- We went out to have lunch and learned how to build a proper database for the restaurant we went to.
+	- We also started the new assignment of connecting Oracle to Netbeans and build a GUI that can control the database build in Oracle + <Oracle 11g Exam Prep I> (the second video).
  
+02/12/2018 (Mon)
+	- In this class, we continue working on the assignment. I figure out that Oracle no longer support mac (after version 10), so I start to find ways, such as VM or private download spot, to setup Oracle on my mac. However these method doesn't seems to work properly for some reasons.
 
-~~~~~ Winter ~~~~~
+02/22/2018 (Thur)
+	- In this class, I continue researching on how to setup the connection of Oracle and Netbeans on mac and start trying those method I found on other's computer.
 
+02/26/2018 (Mon)
+	(Help packing stuffs)
 
-10/02/2017 (Mon)
-	Another class for new stuffs~ We are introduced to 0NF, 1NF, 2NF, 3NF, which are ways to organize the relation database schema, and practice using those to organize the ER-model we built a long time ago.
-
-	Notes in class:
-	- 0NF: Pretty much the original thing without any restrictions.
-	- 1NF: Put multivalued attributes in separated row with given ID.
-	- 2NF: Finds half-dependencies and connect them together.
-	- 3NF: Create full-dependencies, which each row can only included 1 ID.
-
-10/05/2017 (Thur)
-	We had our first pop quiz in the start of class... Due to the fact that some of us (probably only me?) plagiarized stuffs online for Ch5's homework. I personally think it's fair to punish people who plagiarize information online. I'm also pretty grateful for the makeup quiz that earn me at least a few points. XD After I rethink and learn from the event, I found that its actually a mindset issue I had toward those assignments. I did notice and tried to avoid plagiarism while trying to maintain and to provide the most accurate answers for each questions, however, I've ignore that whole point of doing such an assignment. It is not about completing homework, but to actually learn those stuffs and some how apply those on the way toward deeper concepts. (lets all for the reflection)
-	In today's class, we had went through the pop quiz questions, which is mainly Ch5 homework questions, and then focus on learning BCNF (aka 3.5NF). Similar to 3NF, BCNF has mostly the same format and constrains except it has more rows for those schemas that are dependent to each other.
-
-10/09/2017 (Mon)
-<Holiday>
-
-10/12/2017 (Thur)
-    During this class, we went through almost all the homework questions (Q1 to Q16) before we start the lesson. :) We were introduced to the advantage and disadvantage of each normal form (NF1 to BCNF) through an activity. There were 4 databases, which categorized similar data in different forms. We were all assigned to one of them and were told to answer questions based on the database we got. 
-    In the activity, I got the no.4 database, which is a database broken down into maximum tables. Overall, it's really clear and organized in a way that people can easily tell where to find the needed information by simply looking at the table's name. It's quite straightforward to find information like first and last name, address, and cost of items, but it would take a lot more effort to find derived attributes or to edit and make changes to the database.
-
-
-10/16/2017 (Mon)
-    Finishing up the activity we did during the last period, we had a discussion about whether to normalize or to denormalize a database. It reminds me of the first class we were assigned to create our own databases or tables of data. While I was working on my homework, I came up with a few versions of methods to organize the data, and I also came up with the question of which ways work best for the databases. I'm not sure, but I remember I wrote something that can be categorized between 1NF and 2NF. (I haven't learned normal forms at the time) However, if I am given the second chance to redo the assignment again, I will write something that can be categorized between 2NF and 3NF for the most optimal form of the database. Since the size of the databases we have been working on in class are relatively smaller than those that were used in the bigger company, such as Google's databases, or hospital's databases, there is no reason for us to denormalize our database in an exchange with querying speed.
-
-10/19/2017 (Thur)
-	In the class, we finally started coding. Using SQL Fiddle to test out our SQL codes, we reviewed ways to CREATE TABLES, INSERT data, rows, and DELETE, UPDATE data.
-
-Previous Chapter Review:
-	Advantages for denormalization:
-		- Its easy to keep records
-		- Its easier to code
-		- It increase the querying speed
-	Disadvantages:
-		- null values
-		- having trouble finding information 
-Notes in class:
-	Reflexivity: A -> B, then A -> A
-	Augmentation: A -> B, then AC -> BC
-	Transitivity: 
-	Additivity or Union: A -> B and A -> C, then A -> BC
-	Projectivity and Decomposition: A -> BC, then A -> B and A -> C
-	Pseudo Transitivity: A -> B and BC -> D, then AC -> D
-
-10/23/2017 (Mon)
-	In this class, we started to practice those codes, such as ways to set PRIMARY KEY, FOREIGN KEY, and taking a specific part of data. By doing so, we not only memorize those simple codes that are use often during programing or debuting sections, but also recognize some of the parts that can easily get wrong. For example, the position to put PRIMARY KEY and the fact that reference tables should exist before we set FORIGN KEYS...
-
-10/25/2017 (Wed)
-	In the class, we continue the programming sections in the previous class. We focus more on the second lesson we have on Codecademy than the previous one: ways to apply foreign key concept on programming, so the data in a table can be referring to data in another tables in certain conditions; subquery stuffs using "WHERE (SELECT...FROM...WHERE)"; also, some extra stuffs like ways of making a super key a primary key.
-
-10/30/2017 (Mon)
-	
-11/2/2017 (Thur)
-	
-11/6/2017 (Mon)
-	
-11/9/2017 (Thur)
-	
-11/13/2017 (Mon)
+02/29/2018 (Thur)
+	- We went to have lunch outside and in a Japanese restaurant and write a ER-Model for it. (mainly Transaction table, Inventory table, Employee table, and Ingredients 
+table...)
 	
