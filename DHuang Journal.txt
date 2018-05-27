@@ -10,6 +10,8 @@ Semester 2 Quarter 3
 02/12/2018 (Mon)
 	- In this class, we continue working on the assignment. I figure out that Oracle no longer support mac (after version 10), so I start to find ways, such as VM or private download spot, to setup Oracle on my mac. However these method doesn't seems to work properly for some reasons.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Chinese New Year Break ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 02/22/2018 (Thur)
 	- In this class, I continue researching on how to setup the connection of Oracle and Netbeans on mac and start trying those method I found on other's computer.
 
@@ -19,4 +21,80 @@ Semester 2 Quarter 3
 02/29/2018 (Thur)
 	- We went to have lunch outside and in a Japanese restaurant and write a ER-Model for it. (mainly Transaction table, Inventory table, Employee table, and Ingredients 
 table...)
-	
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Moving Break ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+03/12/2018 (Mon)
+	- We had a "not a quiz" test today. During the test, we had to pass 2 easy questions and 1 hard question from testdome.com. Most of the things in the testdome.com are what we've learned before in class, so for me, it isn't that hard to complete them on time.
+
+03/15/2018 (Thur)
+	- We worked on our previous assignment (watch video + ...)
+
+03/17/2018 (Mon)
+	- (Mr.Ting was sick) We still worked on our previous assignment (watch video + ...)
+
+03/20/2018 (Thur)
+	- We started the inventory project in this class, which we were trying to the school (science department) to build an inventory.
+
+03/22/2018 (Mon)
+	- We started to count the amount of items and correcting the information in the database (in google sheet). 
+
+03/26/2018 (Thur)
+	- We continued collecting or cleaning data for our inventory project.
+
+03/29/2018 (Mon)
+	- We continued collecting or cleaning data for our inventory project.
+
+04/05/2018 (Thur)
+	- We continued collecting or cleaning data for our inventory project.
+ 
+04/09/2018 (Mon)
+	- We continued collecting or cleaning data for our inventory project.
+ 
+04/12/2018 (Thur)
+	- We continued collecting or cleaning data for our inventory project. 
+
+04/16/2018 (Mon)
+	- We continued collecting or cleaning data for our inventory project. 
+
+04/19/2018 (Thur)
+	- In this class we finally figured out the final version of how our database is going to be designed. Therefore, we started to separate into two groups working on fronted and backend for our Science Inventory project.
+
+04/23/2018 (Mon)
+	- We spent a class researching how set up the database without spending the money. At the end of class we (Mr.Ting) found a way to set the database up and we found that it would be good if we can use SQL Operations Studio to work on it.  
+
+04/26/2018 (Thur)
+	- We started to research on how to make SQL Operations Studio work on Mac... 
+
+04/30/2018 (Mon)
+	- We continue to research on how to make SQL Operations Studio work on Mac, but at the end we found a way to import data only with Jim's computer. (For some reason, my Mac didn't function properly like his did.)
+
+05/03/2018 (Thur)
+	- Although we found out a way to import data on Google Sheet into our database, we  would still have to modify and clean data in the inventory before we combined it with the frontend.
+
+05/07/2018 (Mon)
+	- In this class, I was researching a way to write scripts that can edit and correct data with one simple click. At the end of class, I did found or wrote a few scripts that can either add all Caps or add and remove spaces in the inventory, but those scripts didn't fit the needs of our database...
+
+05/10/2018 (Thur)
+	- In this class, Jim found another way to import the data from Google Sheet into our server using SQL Operation Studio. Therefore, our lives became a lot easier comparing to a week ago. We would only have to import the "clean and proper" data and use my scripts to add some tiny modification according to our needs.
+
+05/14/2018 (Mon)
+	- Finally, we are working on backend, or specifically a webpage with admin functions. We spend a class to understand how Shaun and Darren were working on and how far they've gone, so that we kind of have an idea of what we are going to do.
+
+05/16/2018 (Thur)
+	- In this class, I was planning to do some research about how I can work on it since Jim wasn't here. I was pulled to help the frontend group during the class, however, I found that it helped me to understand PHP faster then it previously did. 
+
+05/21/2018 (Mon)
+	- In this class, Mr.Ting announced the deadlines for all the part of our assignment. 
+		- 20 Questions test on next last class. 
+		- Inventory project is due 5/30 9am.
+	- For the design of our inventory database, Mr.Ting had a few recommendation for us to make our stuff more user friendly and professional in the future. 
+		- Don't use pure colors red, green, blue, black, white. 
+		- Light should come from top to bottom. 
+		- Choose a color scheme.
+
+05/24/2018 (Thur)
+	- We all took a test.... and we all failed... Q A Q
+	- I got 40+ after spending twice about of time...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ Graduated ~~~~~~~~~~~~~~~~~~~~~~~
